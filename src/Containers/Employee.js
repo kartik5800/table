@@ -1,6 +1,7 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 
-function App() {
+
+function Employee(props) {
   let data = [
     {
       name: "amit",
@@ -47,15 +48,6 @@ function App() {
   return (
     <div id='emp' color='blue'>
       <h1 align='center'>emplyee data</h1>
-     
-      {/* <Smd />
-      <State /> 
-     <Country />
-
-      <Statefun /> */}
-
-      <Cityfun />
-
 
       <table border="1px" align="center" bordercolor='red'>
         <tr>
@@ -91,4 +83,6 @@ function App() {
   );
 }
 
-export default App;
+
+
+export default Employee;
