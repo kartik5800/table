@@ -9,9 +9,10 @@ class Country extends Component {
         super(props);
 
         this.state = {
-            id: 1101,
+            id: 101,
             Countryname: 'india'
         }
+        console.log(this.props.name, this.props.id);
     }
 
     changeCountryname = () => {

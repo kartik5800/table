@@ -16,8 +16,8 @@ function App(props) {
 
       {/* <Employee />
       <Smd />
-      <State />
-      <Country />
+      
+     
 
       <Statefun />
 
@@ -27,6 +27,8 @@ function App(props) {
 
       <Counter />
 
+{/* <State />
+<Country /> */}
 
     </div>
   );
