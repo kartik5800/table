@@ -19,16 +19,20 @@ function App(props) {
       
      
 
-      <Statefun />
+     
 
-      <Cityfun />
+      
 
       < Medicine /> */}
 
-      <Counter />
+      {/* <Counter /> */}
 
-{/* <State />
-<Country /> */}
+{/* <State /> */}
+{/* <Country /> */}
+
+{/* <Cityfun /> */}
+
+<Statefun />
 
     </div>
   );

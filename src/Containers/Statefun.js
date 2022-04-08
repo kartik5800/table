@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import Cityfun from './Cityfun';
 
  export default function StateFun(){
 
@@ -25,6 +26,8 @@ import React, {useState} from 'react'
          <button onClick ={() => setName('nillu')}>
             change name
          </button>
+
+         <Cityfun name = {name} />
      </div>
      </>
  )

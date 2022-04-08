@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Country from './Country';
+import City from './City';
 
 //cahnge state name
 
@@ -25,7 +25,7 @@ statename
             <div>
                 {this.state.statename}<br></br>
                 <button onClick={() => this.changeStatename()}> change state
-                <Country name={this.state.statename} id='101' />
+                <City name={this.state.statename} id='101' />
                 </button>
                
             </div>
