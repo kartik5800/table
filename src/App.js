@@ -9,31 +9,13 @@ import Medicine from './Containers/Medicine';
 import React from 'react';
 import Employee from './Containers/Employee';
 import Counter from './Containers/Counter';
+import Clock from './Containers/Clock';
 
 function App(props) {
   return (
     <div>
 
-      {/* <Employee />
-      <Smd />
-      
-     
-
-     
-
-      
-
-      < Medicine /> */}
-
-      {/* <Counter /> */}
-
-{/* <State /> */}
-{/* <Country /> */}
-
-{/* <Cityfun /> */}
-
-<Statefun />
-
+     < Clock />
     </div>
   );
 }
