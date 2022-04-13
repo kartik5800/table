@@ -10,12 +10,13 @@ import React from 'react';
 import Employee from './Containers/Employee';
 import Counter from './Containers/Counter';
 import Clock from './Containers/Clock';
+import Cloclfun from './Containers/Cloclfun';
 
 function App(props) {
   return (
     <div>
 
-     < Clock />
+      <Cloclfun />
     </div>
   );
 }
