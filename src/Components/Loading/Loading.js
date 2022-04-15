@@ -1,14 +1,18 @@
 import React from 'react';
 
 function Loading(Component) {
-    return function withloadingcomponent({isloading, data}) {
+    return function withloadingcomponent({ isloading, data }) {
         if (isloading) {
             return (
-                <p>loading . . . . .</p>
-               
+                <div>
+                    <div class="spinner-border" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+
+                </div>
             )
         } else {
-            return(
+            return (
                 <Component data={data} />
             );
         }

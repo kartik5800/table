@@ -6,7 +6,7 @@ function Home({data}) {
         data.map ((d, i) => {
             return(
                 
-                <p> {d.name}</p>
+                <p key={d.id}>{d.name}</p>
             )
         })
        
