@@ -17,7 +17,7 @@ import Loading from './Components/Loading/Loading';
 import Home from './Containers/Home/Home';
 
 
-const homewithloading = Loading(Home)
+const Homewithloading = Loading(Home)
 function App(props) {
   const [loading, setloading] = useState(false);
   const [data, setdata] = useState([]);
@@ -40,12 +40,10 @@ function App(props) {
 [])
 
   return (
-    <div>
-      <homewithloading
+      <Homewithloading
       isloading={loading}
       data={data}
       />
-    </div>
   );
 }
 
